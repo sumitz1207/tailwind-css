@@ -1,0 +1,36 @@
+
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  Typography,
+} from "@material-tailwind/react";
+
+<Card className="shadow-lg">
+  <CardHeader
+    variant="gradient"
+    color="gray"
+    className="h-48"
+  >
+    <img
+      src="/img/blog-2.jpg"
+      alt="tailwind-img-blur-shadow"
+      className="w-full h-full"
+    />
+  </CardHeader>
+  <CardBody className="text-center">
+    <Typography
+      as="a"
+      variant="h5"
+      className="text-[#1A237E] font-normal mb-2"
+    >
+      Great for your awesome project
+    </Typography>
+    <Typography>
+      Putting together a page has never been easier than
+      matching together pre-made components. From landing
+      pages presentation to login areas, you can easily
+      customise and built your pages.
+    </Typography>
+  </CardBody>
+</Card>
